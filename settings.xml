@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Source Type="DipTrace_CompEdit_Plugin" Name="DipForge V0.1" ExeFile="dipforge.exe">
+	<Settings>
+		<ExpMode>None</ExpMode>
+		<ImpMode>Library Add</ImpMode>
+		<Comp>All</Comp>
+		<Shape>None</Shape>
+		<Pin>None</Pin>
+		<Pattern>Yes</Pattern>
+		<Attributes>Yes</Attributes>
+	</Settings>
+</Source>

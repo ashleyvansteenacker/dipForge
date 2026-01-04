@@ -1,0 +1,140 @@
+<Library Type="DipTrace-PatternLibrary" Version="5.2.0.4" Units="mm">
+<PadStyles>
+<PadStyle Name="PadT0" Type="Through" HoleType="Round" Hole="-0.3333" Side="Top">
+<MainStack Shape="Ellipse" Width="-0.3333" Height="-0.3333" XOff="0" YOff="0"/>
+</PadStyle>
+<PadStyle Name="PadT1" Type="Through" HoleType="Round" Hole="0" Side="Top">
+<MainStack Shape="Ellipse" Width="-0.3333" Height="-0.3333" XOff="0" YOff="0"/>
+</PadStyle>
+</PadStyles>
+<Patterns>
+<Pattern PatternStyle="PatType0" Mounting="SMD" Width="1.22" Height="0.66" Orientation="0" LockTypeChange="Y" Type="IPC-7351" Float1="0" Float2="0" Float3="0" Int1="1" Int2="0">
+<Name>RES_0201_N</Name>
+<Name_Unique>RES_0201_INCH</Name_Unique>
+<Category Index="27">
+<Name>Capacitors</Name>
+<CategoryTypes>
+<CategoryType>
+<Type Index="6">'Chip</Type>
+</CategoryType>
+</CategoryTypes>
+</Category>
+<Origin X="0" Y="0" Cross="Y" Circle="Y" Common="Hide" Courtyard="Show"/>
+<RecoveryCode Generator="Y" Model="Y">[Y;Chip;1;N;Y;1;0;0;Y;Y;N;N;101;Default;|10;;;0.28;;;0.55;0.6;0.65;0.05;-0.05;0.25;0.3;0.35;0.05;-0.05;0.1;0.15;0.2;0.05;-0.05;;;;;;0.23;0.34;0.36;0.34|0;|;;;;;;;;;0.5;0.5;0.5|||||;;;1|||||||||4934475;15461355;16119285;Y]</RecoveryCode>
+<AddFields>
+<AddField Type="Text">
+<Name>Case Info</Name>
+<Text></Text>
+</AddField>
+<AddField Type="Text">
+<Name>Polaring</Name>
+<Text></Text>
+</AddField>
+<AddField Type="Text">
+<Name>3d Model</Name>
+<Text></Text>
+</AddField>
+<AddField Type="Link">
+<Name>Comp Datasheet</Name>
+<Text></Text>
+</AddField>
+<AddField Type="Link">
+<Name>Old Patt Datasheet</Name>
+<Text></Text>
+</AddField>
+<AddField Type="Text">
+<Name>History</Name>
+<Text></Text>
+</AddField>
+<AddField Type="Text">
+<Name>Old Lib Name</Name>
+<Text></Text>
+</AddField>
+<AddField Type="Text">
+<Name>Old Pattern Name</Name>
+<Text></Text>
+</AddField>
+<AddField Type="Text">
+<Name>Library 1</Name>
+<Text></Text>
+</AddField>
+<AddField Type="Text">
+<Name>Library 2</Name>
+<Text></Text>
+</AddField>
+<AddField Type="Text">
+<Name>Library 3</Name>
+<Text></Text>
+</AddField>
+<AddField Type="Text">
+<Name>Library 4</Name>
+<Text></Text>
+</AddField>
+<AddField Type="Text">
+<Name>Library 5</Name>
+<Text></Text>
+</AddField>
+<AddField Type="Text">
+<Name>Library 6</Name>
+<Text></Text>
+</AddField>
+<AddField Type="Text">
+<Name>Library 7</Name>
+<Text></Text>
+</AddField>
+<AddField Type="Text">
+<Name>Library 8</Name>
+<Text></Text>
+</AddField>
+<AddField Type="Text">
+<Name>Library 9</Name>
+<Text></Text>
+</AddField>
+<AddField Type="Text">
+<Name>Library 10</Name>
+<Text></Text>
+</AddField>
+</AddFields>
+<DefPad Style="PadT0"/>
+<Pads>
+<Pad Id="1" Style="PadT1" X="-0.285" Y="0" Angle="0" Locked="N" Side="Top">
+<Number>1</Number>
+</Pad>
+<Pad Id="2" Style="PadT1" X="0.285" Y="0" Angle="3.1416" Locked="N" Side="Top">
+<Number>2</Number>
+</Pad>
+</Pads>
+<Shapes>
+<Shape Id="1" Type="Rectangle" Locked="N" Layer="Top Outline" LineWidth="0.05" AllLayers="N">
+<Points>
+<Point X="-0.3" Y="0.15"/>
+<Point X="0.3" Y="-0.15"/>
+</Points>
+</Shape>
+<Shape Id="2" Type="Rectangle" Locked="N" Layer="Top Assy" LineWidth="0.12" AllLayers="N">
+<Points>
+<Point X="-0.33" Y="0.18"/>
+<Point X="0.33" Y="-0.18"/>
+</Points>
+</Shape>
+<Shape Id="3" Type="Rectangle" Locked="N" Layer="Top Courtyard" LineWidth="0.05" AllLayers="N">
+<Points>
+<Point X="-0.61" Y="0.33"/>
+<Point X="0.61" Y="-0.33"/>
+</Points>
+</Shape>
+</Shapes>
+<Model3D Mirror="N" NoSearch="N" Units="mm" IPC_XOff="0" IPC_YOff="0" AutoHeight="0.28" AutoColor="4934475" Type="IPC-7351" KeepPins="N">
+<Filename>
+<Path>C:Program Files (x86)DipTracemodels3dResistors
+es_0201.step</Path>
+<Var>C:Program Files (x86)DipTracemodels3dResistors
+es_0201.step</Var>
+</Filename>
+<Rotate X="0" Y="0" Z="0"/>
+<Offset X="0" Y="0" Z="-0.01"/>
+<Zoom X="1" Y="1" Z="1"/>
+</Model3D>
+</Pattern>
+</Patterns>
+</Library>
